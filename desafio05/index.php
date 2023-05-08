@@ -17,7 +17,7 @@
 
         <h1>Analisador de Número Real</h1>
 
-        <form action="cad.php" method="request">
+        <form action="cad.php" method="get">
 
             <label for="numero">Número Real:</label>
             <input type="number" pattern="[0-9]+([,\.][0-9]+)?" min="0" step="any" name="numero" id="idnumero">
