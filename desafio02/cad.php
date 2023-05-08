@@ -30,7 +30,7 @@
 
         ?>
 
-        <button><a href="javascript:history.go(-1)"><- Voltar</a></button>
+        <a href="javascript:history.go(-1)"><button><Voltar</button></a>
 
         
 
