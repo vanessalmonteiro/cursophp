@@ -15,7 +15,7 @@
 
         <?php 
 
-            $numero = $_GET["numero"] ?? "Sem número";
+            $numero = $_REQUEST["numero"] ?? "Sem número";
 
             $antecessor = $numero - 1;
             $sucessor = $numero + 1;
@@ -30,7 +30,7 @@
 
         ?>
 
-        <a href="javascript:history.go(-1)"><button>Voltar</button></a>
+        <button onclick="javascript:history.go(-1)">Voltar</button>
 
         
 
