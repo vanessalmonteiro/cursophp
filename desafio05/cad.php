@@ -18,15 +18,16 @@
             $numero = $_REQUEST["numero"] ?? "Sem número";
 
             $numeroInteiro = number_format($numero, 0, '.', '');
+            $numeroFracionado = number_format(($numero - $numeroInteiro), 2, ',', '.');
 
             echo "<h1>Analisador de Número Real</h1>";
             
-            echo "<p>Analisando o número <strong>$numero</strong> informado pelo usuário:</p>";  
+            echo "<p>Analisando o número <strong>" . $numero . "</strong> informado pelo usuário:</p>";  
 
             echo "
             <ul>
-                <li>A parte inteira do número é <strong>$numeroInteiro</strong></li>
-                <li>A partir fracionária do número é <strong>numeroFracionado</strong></li>
+                <li>A parte inteira do número é <strong>" . $numeroInteiro . "</strong></li>
+                <li>A parte fracionária do número é <strong>" . $numeroFracionado . "</strong></li>
             </ul>
             ";
 
