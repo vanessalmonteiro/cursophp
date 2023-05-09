@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício PHP</title>
 
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
     <main>
-        <form action="/ex005/superglobais.php" method="post"></form>
+        <form action="superglobais.php" method="post">
+
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" id="idusuario">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="idsenha">
+            <input type="submit" value="Entrar">
+        </form>
     </main>
     
 </body>
