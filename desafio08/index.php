@@ -37,8 +37,8 @@
         <h2>Resultado Final</h2>
         <?php 
         
-            $raizQuadrada = sqrt($numero);
-            $raizCubica = $raizQuadrada / 2;
+            $raizQuadrada = $numero ** (1 / 2);
+            $raizCubica = $numero ** (1 / 3);
 
             echo "<p>Analisando o <strong>número $numero</strong>, temos:</p>";
 
