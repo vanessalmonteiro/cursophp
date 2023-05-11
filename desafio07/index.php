@@ -41,7 +41,7 @@
         
             $salarioMinimoAtual = 1380;
 
-            $salariosMinimos = $salario / $salarioMinimoAtual;
+            $salariosMinimos = intdiv($salario, $salarioMinimoAtual);
 
             $restoSalario = $salario % $salarioMinimoAtual;
 

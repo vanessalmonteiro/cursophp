@@ -40,7 +40,7 @@
         <h2>Resultado da Soma</h2>
         <?php 
         
-            $divisao = $dividendo / $divisor;
+            $divisao = intdiv($dividendo, $divisor);
 
             $restoDivisao = $dividendo % $divisor;
 
