@@ -42,8 +42,8 @@
             echo "<p></p>";
 
             echo "<ul>
-                <li></li>
-                <li></li>
+                <li> </li>
+                <li> </li>
             </ul>"
         
         ?>
